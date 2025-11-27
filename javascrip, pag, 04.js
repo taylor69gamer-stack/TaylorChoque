@@ -20,3 +20,29 @@ function cambiarFondo(){
 function cambiarTexto(){
     document.getElementById('Subtitulo').textContent="YA LE SE AL 35";
 }
+
+//-- Nuevos botones ---
+// --- NUEVAS FUNCIONES AÑADIDAS ---
+function resetCarita(){
+    document.getElementById('carita').src = 'Imagenes/caritaNeutral.png';
+}
+
+function oscurecerFondo(){
+    document.getElementById('MENÚ').style.background = '#2a2a2a';
+}
+
+function agrandarTexto(){
+    document.getElementById('Subtitulo').style.fontSize = "40px";
+}
+
+function reducirTexto(){
+    document.getElementById('Subtitulo').style.fontSize = "20px";
+}
+
+function cambiarLogo2(){
+    document.getElementById('logo').src = 'css/images/LogoDePestaña.png';
+}
+
+function cambiarColorTexto(){
+    document.getElementById('Subtitulo').style.color = '#FF5733';
+}
