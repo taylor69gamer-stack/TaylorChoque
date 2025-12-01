@@ -31,30 +31,34 @@
             </nav>
         </div>
     </header>
-
-    <section id="showcase">
-        <article>
-                <H3>¿Te gustaría ponerte en contacto con nosotros?
-                    Comunícate hoy mismo.</H3>
-                <form action="procesar.php" method="post">
-                    <input type="text" name="usuario" placeholder="Nombre de usuario">
-                    <input type="email" name="correo" placeholder="email">
-                    <input type="number" name="edad" min="18" max="100">
-                    <input type="date" name="fecha">
-                    <select name="país">
-                        <option value="ar">Argentina</option>
-                        <option value="co">Colombia</option>
-                        <option value="mx">México</option>
-                        <option value="pe">Perú</option>
-                    </select>
-                    <h4>Área de texto (varias líneas)</h4>
-                    <textarea name="comentarios" rows="4" cols="40"></textarea>
-                    <h4>Botones</h4>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-                  <button type="button" onclick="alert('Como esta muchacho')">Haz clic</button>
+    <section class="py-5">
+        <div class="container px-4 px-lg-5 my-5">
+            <div class="row gx-4 gx-lg-5 align-items-center">
+            <h1 class="display-5 fw-bolder">Contacto</h1>
+                    
+                <form id="contactoForm">
+                    <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Escribe tu nombre" required>
+                    </div>
+                
+                    <div class="mb-3">
+                    <label for="email" class="form-label">Email:</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="nombre@ejemplo.com" required>
+                    
+                    </div>
+                
+                    <div class="mb-3">
+                    <label for="mensaje" class="form-label">Su mensaje:</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                    </div>
+                
+                    <div class="d-grid">
+                    <button type="submit" class="btn btn-success">Registrar</button>
+                    </div>
                 </form>
-        </article>
+            </div>
+        </div>
     </section>
 </body>
 </html>
