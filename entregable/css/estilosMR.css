@@ -11,7 +11,12 @@ body {
     color: #222;
     line-height: 1.6;
 }
-
+body {
+  background-image: url('ruta/a/tu/imagen.jpg'); /* Reemplaza con la ruta de tu imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-position: center; /* Centra la imagen */
+  background-size: cover; /* Asegura que la imagen cubra todo el elemento */
+}
 /* Contenedor general */
 .container {
     width: 90%;
