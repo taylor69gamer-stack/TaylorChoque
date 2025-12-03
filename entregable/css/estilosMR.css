@@ -11,7 +11,7 @@ body {
     color: #222;
     line-height: 1.6;
 
-    background-image: url("css/fondo01.png"); /* ruta a tu imagen */
+    background-image: url("entregable/css/fondo01.png"); /* ruta a tu imagen */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
