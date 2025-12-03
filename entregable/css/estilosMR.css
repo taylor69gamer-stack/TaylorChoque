@@ -254,3 +254,97 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
 }
+/* Contenedor del formulario */
+.py-5 .container {
+    padding-top: 20px;
+}
+
+/* Título de contacto */
+.display-5 {
+    color: #2a5d34;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo general del formulario */
+#contactoForm {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #e2e2e2;
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+/* Animación */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Etiquetas */
+#contactoForm .form-label {
+    font-weight: 600;
+    color: #2a5d34;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Campos */
+#contactoForm .form-control {
+    width: 100%;
+    padding: 12px 15px;
+    border: 1px solid #c8d6c8;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+#contactoForm .form-control:focus {
+    border-color: #4CAF50;
+    box-shadow: 0 0 8px rgba(76, 175, 80, 0.4);
+    outline: none;
+}
+
+#contactoForm textarea {
+    resize: vertical;
+}
+
+/* Botón */
+#contactoForm .btn-success {
+    background-color: #3ea04a;
+    border: none;
+    padding: 12px 0;
+    font-size: 1.1rem;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#contactoForm .btn-success:hover {
+    background-color: #2f7e39;
+    transform: translateY(-2px);
+}
+
+/* Datos de contacto (dl, dt, dd) */
+article dl {
+    background: #f4f9f4;
+    padding: 20px;
+    border-radius: 10px;
+    border-left: 5px solid #3ea04a;
+    max-width: 600px;
+    margin: 30px auto;
+}
+
+article dt {
+    font-weight: bold;
+    color: #3ea04a;
+    margin-top: 10px;
+}
+
+article dd {
+    margin-left: 10px;
+    color: #444;
+}
